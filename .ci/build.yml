@@ -1,5 +1,0 @@
-version: v2.0
-
-steps:
-  - run: echo " 在test 分支上提交 yaml"
-
