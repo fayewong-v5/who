@@ -1,4 +1,4 @@
-name: P1
+name: P2
 on: [push, pull_request]
 
 jobs:
