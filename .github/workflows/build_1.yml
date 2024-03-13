@@ -1,4 +1,4 @@
-name: P1
+name: P2
 on: [push, pull_request]
 
 jobs:
@@ -29,3 +29,6 @@ jobs:
         env:
           MATRIX_CONTEXT: ${{ toJson(matrix) }}
         run: echo "$MATRIX_CONTEXT"
+      - name: log color
+        run: ｜
+          echo "::debug::Set the Octocat variable"
